@@ -1,0 +1,28 @@
+{
+  "ArticleTitleLarge": {
+    "Title": "How to set up a crypto wallet",
+    "Subtitle": ""
+  },
+  "ImageBlock": {
+    "Image_Src": "https://sandbox8stage.cphostaccess.com/acceleratebs/_assets/images/how-to-set-up-a-crypto-wallet.png",
+    "Image_Alt": "How to set up a crypto wallet"
+  },
+  "HtmlParser": {
+    "HtmlString": "<section><div><p>A crypto wallet is a place where you can securely keep your crypto. There are many different types of crypto wallets, but the most popular ones are hosted wallets, non-custodial wallets, and hardware wallets. </p><p>Which one is right for you depends on what you want to do with your crypto and what kind of safety net you want to have.</p></div></section><section><div><h2>Hosted wallets</h2><p>The most popular and easy-to-set-up crypto wallet is a hosted wallet. When you buy crypto using an app like Coinbase, your crypto is automatically held in a hosted wallet. It’s called <em> hosted </em> because a third party keeps your crypto for you, similar to how a bank keeps your money in a checking or savings account. You may have heard of people “losing their keys” or “losing their USB wallet” but with a hosted wallet you don’t have to worry about any of that.</p><p>The main benefit of keeping your crypto in a hosted wallet is if you forget your password, you won’t lose your crypto. A drawback to a hosted wallet is you can’t access everything crypto has to offer. However, that may change as hosted wallets start to support more features.</p><p>How to set up a hosted wallet:</p><ol><li><p><strong> Choose a platform you trust. </strong> Your main considerations should be security, ease of use, and compliance with government and financial regulations.</p></li><li><p><strong> Create your account. </strong> Enter your personal info and choose a secure password. It’s also recommended to use 2-step verification (also called 2FA) for an extra layer of security. </p></li></ol><p><strong> Buy or transfer crypto. </strong> Most crypto platforms and exchanges allow you to buy crypto using a bank account or credit card. If you already own crypto, you can also transfer it to your new hosted wallet for safe keeping.</p></div></section>"
+  },
+  "DropZones": {
+    "droppable": [
+      {
+        "ArticleSidebar": {
+          "ArticleSidebar": [
+            {
+              "ArticleSidebarListItem": {
+                "Label": "Hosted wallets"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

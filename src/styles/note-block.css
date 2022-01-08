@@ -1,0 +1,15 @@
+.note-block {
+  min-width: 0px;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+  background-color: rgba(50, 53, 61, 0.04);
+  padding: 32px;
+}
+
+.note-block__body {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  white-space: pre-line;
+}

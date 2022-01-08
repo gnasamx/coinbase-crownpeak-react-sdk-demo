@@ -1,0 +1,28 @@
+.article-title-large {
+  height: 100%;
+  min-width: 0px;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+}
+
+.article-title-large h1 {
+  margin: 0px;
+  font-size: 52px;
+  line-height: 64px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.article-title-large__subtitle-wrapper {
+  color: #5b616e;
+  max-width: 960px;
+  margin-top: 24px;
+}
+
+.article-title-large__subtitle {
+  margin: 0px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+}

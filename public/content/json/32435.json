@@ -1,0 +1,43 @@
+{
+  "SectionHeader": {
+    "Text": "Static: Tips and tutorials",
+    "Body": "Get practical, step-by-step answers to all things crypto"
+  },
+  "DropZones": {
+    "droppable": [
+      {
+        "DragDropZone": null
+      },
+      {
+        "ArticleGrid": {
+          "ArticleGrid": [
+            {
+              "Article": {
+                "Link": "/crypto-basics/how-to-donate-crypto",
+                "Article_Image": "https://sandbox8stage.cphostaccess.com/acceleratebs/_assets/images/how-to-donate-crypto.png",
+                "Article_Alt": "How to donate crypto",
+                "Caption": "Getting Started",
+                "Title": "How to donate crypto"
+              }
+            },
+            {
+              "Article": {
+                "Link": "/crypto-basics/how-to-set-up-a-crypto-wallet",
+                "Article_Image": "https://sandbox8stage.cphostaccess.com/acceleratebs/_assets/images/how-to-set-up-a-crypto-wallet.png",
+                "Article_Alt": "How to set up a crypto wallet",
+                "Caption": "Video Tutorial",
+                "Title": "How to set up a crypto wallet"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "SinglePanelBanner": {
+          "Title": "Earn free crypto",
+          "Body": "Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/",
+    "exact": true,
+    "component": "LearnPage",
+    "cmsassetid": 32435
+  },
+  {
+    "path": "/crypto-basics/how-to-donate-crypto",
+    "exact": true,
+    "component": "DetailPage",
+    "cmsassetid": 32436
+  },
+  {
+    "path": "/crypto-basics/how-to-set-up-a-crypto-wallet",
+    "exact": true,
+    "component": "DetailPage",
+    "cmsassetid": 32437
+  }
+]

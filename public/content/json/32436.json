@@ -1,0 +1,33 @@
+{
+  "ArticleTitleLarge": {
+    "Title": "How to donate crypto",
+    "Subtitle": "Bitcoin, ETH, and other cryptocurrencies can make your giving go farther. Plus: 15 nonprofit orgs that accept crypto"
+  },
+  "ImageBlock": {
+    "Image_Src": "https://sandbox8stage.cphostaccess.com/acceleratebs/_assets/images/how-to-donate-crypto.png",
+    "Image_Alt": "How to donate crypto"
+  },
+  "HtmlParser": {
+    "HtmlString": "<section><div><p>In December 2017, an anonymous crypto investor named “Pine” created the <a href='https://pineapplefund.org/'><u>Pineapple Fund</u></a> as “an experiment in philanthropy with cryptocurrency.” Pine donated $55 million worth of bitcoin to 60 different charitable organizations — focused on everything from the environment and mental health to social justice and homelessness.</p><p>Since 2018, GiveCrypto.org has been working to reduce poverty via direct community-based donations of cryptocurrency (Coinbase CEO Brian Armstrong is a founder). In 2019, UNICEF announced that it had become the first U.N. Organization to hold and make transactions in cryptocurrency, via a designated <a href='https://www.unicef.org/press-releases/unicef-launches-cryptocurrency-fund'><u>Cryptocurrency Fund</u></a>. As of April 6th, 2021 the UNICEF Cryptocurrency fund has received <a href='https://www.theblockcrypto.com/linked/100684/unicef-bitcoin-btc-donation-huobi-charity'><u>2,267 ETH and eight bitcoin (worth over $5 million)</u></a>. You can also check out <a href='https://daffy.org/'><u>Daffy</u></a> — a new giving platform that delivers all donations to nonprofits and charities in cash, and which allows you to choose from the more than 1.5 million organizations that Daffy supports.</p></div></section><section><div><h2 id='crypto-is-private'>Crypto is private</h2><p>Crypto can help address privacy and data protection issues, which are increasingly relevant to donors. A 2021 survey by <a href='https://www.give.org/news-and-updates-new/2021/01/28/bbb-wise-giving-alliance-poll-shows-donors-concerned-about-data-privacy'> <u> Give.org </u> </a> showed that a large majority of Americans of all ages have data-privacy concerns when it comes to philanthropy. </p><p>Donating crypto directly to an organization could better protect your personal information, and potentially result in more funds going to causes you care about.</p></div></section><section><div><h2 id='stablecoins-can-make-crypto-giving-less-volatile'>Stablecoins can make crypto giving less volatile</h2><p>Organizations looking to take advantage of the benefits of crypto without the volatility risk can also accept donations in USDC or similar stablecoins. USDC is a cryptocurrency that is fully backed and <a href='https://www.coinbase.com/usdc'> <u> redeemable for US Dollars </u> </a> . Any organization that has Coinbase Commerce enabled is set up to accept USDC. </p><p>(If you’re an org looking to accept crypto you can set up a <a href='https://commerce.coinbase.com/'> <u> Coinbase Commerce </u> </a> account — within minutes, you’ll be able to accept donations in five different cryptocurrencies.)</p></div></section>"
+  },
+  "DropZones": {
+    "droppable": [
+      {
+        "ArticleSidebar": {
+          "ArticleSidebar": [
+            {
+              "ArticleSidebarListItem": {
+                "Label": "Crypto is private"
+              }
+            },
+            {
+              "ArticleSidebarListItem": {
+                "Label": "Stablecoins can make crypto giving less volatile"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
