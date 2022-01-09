@@ -2,31 +2,31 @@
   {
     "path": "/",
     "exact": true,
-    "component": "LearnPage",
-    "cmsassetid": 32435
+    "component": "SingleColumnLayout",
+    "cmsassetid": 33047
   },
   {
     "path": "/crypto-basics/how-to-donate-crypto",
     "exact": true,
-    "component": "DetailPage",
-    "cmsassetid": 32436
+    "component": "SidebarLayout",
+    "cmsassetid": 33048
   },
   {
     "path": "/crypto-basics/how-to-set-up-a-crypto-wallet",
     "exact": true,
-    "component": "DetailPage",
-    "cmsassetid": 32437
+    "component": "SidebarLayout",
+    "cmsassetid": 33049
   },
   {
-    "path": "/single-column-layout",
-    "exact": true,
-    "component": "SingleColumnLayout",
-    "cmsassetid": 32438
-  },
-  {
-    "path": "/sidebar-layout",
+    "path": "/crypto-basics/when-is-the-best-time-to-invest-in-crypto",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 32439
+    "cmsassetid": 33050
+  },
+  {
+    "path": "/crypto-basics/an-investor-who-got-in-when-bitcoin-was-$10",
+    "exact": true,
+    "component": "SidebarLayout",
+    "cmsassetid": 33051
   }
 ]

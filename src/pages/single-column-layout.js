@@ -3,7 +3,7 @@ import DropZone from "../components/drop-zone";
 import Routing from "../routing";
 import "../styles/single-column-layout.css";
 
-export default class SingleColumnLayout extends CmsStaticPage {
+export default class SingleColumnLayout extends CmsDynamicPage {
   constructor(props) {
     super(props);
 

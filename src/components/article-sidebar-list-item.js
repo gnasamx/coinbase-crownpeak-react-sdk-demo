@@ -22,7 +22,11 @@ export default class ArticleSidebarListItem extends CmsComponent {
           onClick={() => {
             document
               .getElementById(
-                `${this.label.toLowerCase().split(" ").join("-")}`
+                `${this.label
+                  .replace(/[^a-zA-Z ]/g, "")
+                  .toLowerCase()
+                  .split(" ")
+                  .join("-")}`
               )
               ?.scrollIntoView({ behavior: "smooth" });
           }}
