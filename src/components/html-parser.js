@@ -5,7 +5,7 @@ import "../styles/html-parser.css";
 export default class HtmlParser extends CmsComponent {
   constructor(props) {
     super(props);
-    this.cmsZones = ["droppable"];
+    this.cmsZones = ["droppable", "droppable-into-single-column"];
     this.cmsDisableDragDrop = false;
 
     this.html_string = new CmsField(

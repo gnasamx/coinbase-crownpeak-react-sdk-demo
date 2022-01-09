@@ -1,0 +1,7 @@
+.single-column-layout {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px;
+  padding: 32px 16px 80px;
+  margin: 0px auto;
+}

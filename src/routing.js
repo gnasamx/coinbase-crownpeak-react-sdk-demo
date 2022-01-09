@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Switch } from "react-router";
 import LearnPage from "./pages/learn-page";
 import DetailPage from "./pages/detail-page";
-
+import SingleColumnLayout from "./pages/single-column-layout";
 export default class Routing {
   static get routes() {
     return this._routes || [];
@@ -23,6 +23,7 @@ export default class Routing {
     const componentRegistry = {
       LearnPage,
       DetailPage,
+      SingleColumnLayout,
     };
 
     fetch(routeFile)

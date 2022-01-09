@@ -16,5 +16,11 @@
     "exact": true,
     "component": "DetailPage",
     "cmsassetid": 32437
+  },
+  {
+    "path": "/single-column-layout",
+    "exact": true,
+    "component": "SingleColumnLayout",
+    "cmsassetid": 32438
   }
 ]

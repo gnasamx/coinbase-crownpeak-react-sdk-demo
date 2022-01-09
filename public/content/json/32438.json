@@ -1,0 +1,23 @@
+{
+  "DropZones": {
+    "droppable-into-single-column": [
+      {
+        "SectionHeader": {
+          "Text": "Static: Tips and tutorials",
+          "Body": "Get practical, step-by-step answers to all things crypto"
+        }
+      },
+      {
+        "NoteBlock": {
+          "Note": "Guide to DeFi tokens and altcoins"
+        }
+      },
+      {
+        "SinglePanelBanner": {
+          "Title": "Earn free crypto",
+          "Body": "Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself."
+        }
+      }
+    ]
+  }
+}

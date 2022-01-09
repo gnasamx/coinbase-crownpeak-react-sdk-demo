@@ -5,7 +5,7 @@ export default class SectionHeader extends CmsComponent {
   constructor(props) {
     super(props);
 
-    this.cmsZones = ["droppable"];
+    this.cmsZones = ["droppable", "droppable-into-single-column"];
     this.cmsDisableDragDrop = false;
 
     this.text = new CmsField(
