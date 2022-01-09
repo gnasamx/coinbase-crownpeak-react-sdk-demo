@@ -1,16 +1,14 @@
-### Todos
-
-1. Responsive layout components
+### Layouts
 
 **Single Column Layout**
 
 ```jsx
 <SingleColumnLayout>
-  <SingleColumnDropZone name="droppable-into-single-column">
+  <DropZone name="droppable-12">
     <ComponentOne />
     <ComponentTwo />
     <ComponentThree />
-  </SingleColumnDropZone>
+  </DropZone>
 </SingleColumnLayout>
 ```
 
@@ -18,36 +16,22 @@
 
 ```jsx
 <SidebarLayout>
-  <SidebarDropZone name="droppable-into-sidebar">
+  <DropZone name="droppable-12">
+    <ComponentOne />
+  </DropZone>
+  <div>
     <div width="2">
-      <ComponentOne />
-      <ComponentTwo />
-    </div>
-    <div width="1">
-      <ComponentThree />
-    </div>
-  </SidebarDropZone>
-</SidebarLayout>
-```
-
-**Nested DropZones (Experimental)**
-
-```jsx
-<SidebarLayout>
-  <SidebarDropZone name="sidebar-drop-zone">
-    <div width="2">
-      <SingleColumnDropZone name="single-column-drop-zone">
-        <ComponentOne />
+      <DropZone name="droppable-8">
         <ComponentTwo />
         <ComponentThree />
-      </SingleColumnDropZone>
+        <ComponentFour />
+      </DropZone>
     </div>
     <div width="1">
-      <SingleColumnDropZone>
-        <ComponentThree />
-      </SingleColumnDropZone>
+      <DropZone name="droppable-8">
+        <ComponentFive />
+      </DropZone>
     </div>
-  </SidebarDropZone>
+  </div>
 </SidebarLayout>
 ```
-

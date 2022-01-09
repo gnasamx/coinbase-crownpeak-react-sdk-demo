@@ -9,6 +9,7 @@ import ImageBlock from "./image-block";
 import NoteBlock from "./note-block";
 import SectionHeader from "./section-header";
 import SinglePanelBanner from "./single-panel-banner";
+import WordCloudSection from "./word-cloud-section";
 
 export default class DropZone extends CmsDropZoneComponent {
   constructor(props) {
@@ -23,6 +24,7 @@ export default class DropZone extends CmsDropZoneComponent {
       HtmlParser,
       ImageBlock,
       NoteBlock,
+      WordCloudSection,
     };
   }
 

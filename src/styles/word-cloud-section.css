@@ -1,0 +1,25 @@
+.word-cloud-section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  column-gap: 44px;
+  row-gap: 56px;
+  background-color: #eef0f3;
+  padding: 80px 16px;
+}
+
+.word-cloud-section__heading {
+  margin: 0px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.word-cloud-section__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}

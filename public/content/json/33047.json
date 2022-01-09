@@ -1,0 +1,102 @@
+{
+  "DropZones": {
+    "droppable-12": [
+      {
+        "SectionHeader": {
+          "Text": "Static: Tips and tutorials",
+          "Body": "Get practical, step-by-step answers to all things crypto"
+        }
+      },
+      {
+        "NoteBlock": {
+          "Note": "Guide to DeFi tokens and altcoins"
+        }
+      },
+      {
+        "WordCloudSection": {
+          "Heading": "What is?",
+          "WordCloudSection": [
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/bitcoin",
+                "Label": "Bitcoin"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/nft",
+                "Label": "NFT"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/blockchain",
+                "Label": "Blockchain"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/smart-contract",
+                "Label": "Smart Contract"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/private-key",
+                "Label": "Private Key"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/stable-coin",
+                "Label": "Stable Coin"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/token",
+                "Label": "Token"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/usdt",
+                "Label": "USDT"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/crypto-wallet",
+                "Label": "Crypto Wallet"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/protocol",
+                "Label": "Protocol"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/market-cap",
+                "Label": "Market Cap"
+              }
+            },
+            {
+              "WordCloudButton": {
+                "Link": "/crypto-basics/volatility",
+                "Label": "Volatility"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "SinglePanelBanner": {
+          "Title": "Earn free crypto",
+          "Body": "Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself."
+        }
+      }
+    ]
+  }
+}

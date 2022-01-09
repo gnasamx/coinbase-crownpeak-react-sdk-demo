@@ -1,0 +1,22 @@
+.word-cloud-button__link {
+  text-align: center;
+  margin: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.25s ease 0s;
+  border: none;
+  padding: 16px 24px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 16px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 11, 13);
+  cursor: pointer;
+  width: auto;
+}
+
+.word-cloud-button__label {
+  margin: 0px;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 18px;
+}
