@@ -1,5 +1,4 @@
 import { CmsDynamicPage, CmsStaticPage } from "crownpeak-dxm-react-sdk";
-import SingleColumnDropZone from "../components/single-column-drop-zone";
 import Routing from "../routing";
 import "../styles/single-column-layout.css";
 
@@ -23,9 +22,7 @@ export default class SingleColumnLayout extends CmsStaticPage {
     super.render();
     return (
       this.state.isLoaded && (
-        <article className="single-column-layout">
-          <SingleColumnDropZone name="droppable-into-single-column" />
-        </article>
+        <article className="single-column-layout">Hello</article>
       )
     );
   }

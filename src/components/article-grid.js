@@ -6,9 +6,6 @@ export default class ArticleGrid extends CmsComponent {
   constructor(props) {
     super(props);
 
-    this.cmsZones = ["droppable", "droppable-into-single-column"];
-    this.cmsDisableDragDrop = false;
-
     this.article_grid = new CmsField(
       "ArticleGrid",
       "",

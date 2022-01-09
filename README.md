@@ -6,7 +6,7 @@
 
 ```jsx
 <SingleColumnLayout>
-  <SingleColumnDropZone name="single-column-drop-zone">
+  <SingleColumnDropZone name="droppable-into-single-column">
     <ComponentOne />
     <ComponentTwo />
     <ComponentThree />
@@ -18,7 +18,7 @@
 
 ```jsx
 <SidebarLayout>
-  <SidebarDropZone name="sidebar-drop-zone">
+  <SidebarDropZone name="droppable-into-sidebar">
     <div width="2">
       <ComponentOne />
       <ComponentTwo />
@@ -50,3 +50,4 @@
   </SidebarDropZone>
 </SidebarLayout>
 ```
+

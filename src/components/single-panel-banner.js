@@ -5,9 +5,6 @@ export default class SinglePanelBanner extends CmsComponent {
   constructor(props) {
     super(props);
 
-    this.cmsZones = ["droppable", "droppable-into-single-column"];
-    this.cmsDisableDragDrop = false;
-
     this.title = new CmsField(
       "Title",
       CmsFieldTypes.TEXT,

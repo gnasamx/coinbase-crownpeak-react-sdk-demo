@@ -5,9 +5,6 @@ export default class ImageBlock extends CmsComponent {
   constructor(props) {
     super(props);
 
-    this.cmsZones = ["droppable", "droppable-into-single-column"];
-    this.cmsDisableDragDrop = false;
-
     this.image_src = new CmsField(
       "Image_Src",
       CmsFieldTypes.IMAGE,

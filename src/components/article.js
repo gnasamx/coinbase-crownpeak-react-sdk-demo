@@ -4,6 +4,7 @@ import "../styles/article.css";
 export default class Article extends CmsComponent {
   constructor(props) {
     super(props);
+
     this.cmsDisableDragDrop = true;
 
     this.article_image = new CmsField(

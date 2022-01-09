@@ -5,8 +5,6 @@ import "../styles/article-sidebar.css";
 export default class ArticleSidebar extends CmsComponent {
   constructor(props) {
     super(props);
-    this.cmsZones = ["droppable", "droppable-into-single-column"];
-    this.cmsDisableDragDrop = false;
 
     this.article_links = new CmsField(
       "ArticleSidebar",

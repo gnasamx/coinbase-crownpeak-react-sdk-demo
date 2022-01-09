@@ -1,15 +1,14 @@
 import { CmsDropZoneComponent } from "crownpeak-dxm-react-sdk";
+import "../styles/drop-zone.css";
 import ArticleGrid from "./article-grid";
-import SectionHeader from "./section-header";
-import SinglePanelBanner from "./single-panel-banner";
-import DragDropZone from "./drag-drop-zone";
 import ArticleSidebar from "./article-sidebar";
 import ArticleTitleLarge from "./article-title-large";
+import DragDropZone from "./drag-drop-zone";
 import HtmlParser from "./html-parser";
 import ImageBlock from "./image-block";
 import NoteBlock from "./note-block";
-import { createElement } from "react";
-import "../styles/drop-zone.css";
+import SectionHeader from "./section-header";
+import SinglePanelBanner from "./single-panel-banner";
 
 export default class DropZone extends CmsDropZoneComponent {
   constructor(props) {
@@ -28,10 +27,14 @@ export default class DropZone extends CmsDropZoneComponent {
   }
 
   render() {
-    return createElement(
-      "div",
-      { className: "drop-zone" },
-      super.getComponents()
+    return (
+      <div
+        className={`drop-zone${
+          this.props.className ? this.props.className : ""
+        }`}
+      >
+        {super.getComponents()}
+      </div>
     );
   }
 }

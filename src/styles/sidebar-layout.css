@@ -1,0 +1,56 @@
+/* Page layout */
+.sidebar-layout {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px;
+  padding: 32px 16px 80px;
+  margin: 0px auto;
+}
+
+.sidebar-layout__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  column-gap: 44px;
+  row-gap: 56px;
+}
+
+/* Dropzone */
+.sidebar-layout__columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 56px 44px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-layout__columns {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.sidebar-layout__body {
+  height: 100%;
+  min-width: 0px;
+  grid-column-end: span 2;
+  grid-row-end: span 1;
+}
+
+@media (max-width: 768px) {
+  .sidebar-layout__body {
+    grid-column-end: span 1;
+  }
+}
+
+.sidebar-layout__aside {
+  height: 100%;
+  min-width: 0px;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+}
+
+@media (max-width: 768px) {
+  .sidebar-layout__aside {
+    grid-column-end: span 1;
+  }
+}

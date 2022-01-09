@@ -22,5 +22,11 @@
     "exact": true,
     "component": "SingleColumnLayout",
     "cmsassetid": 32438
+  },
+  {
+    "path": "/sidebar-layout",
+    "exact": true,
+    "component": "SidebarLayout",
+    "cmsassetid": 32439
   }
 ]
