@@ -1,4 +1,4 @@
-import { CmsComponent, CmsField, CmsDataCache } from "crownpeak-dxm-react-sdk";
+import { CmsComponent, CmsField } from "crownpeak-dxm-react-sdk";
 import Article from "./article";
 import "../styles/article-grid.css";
 

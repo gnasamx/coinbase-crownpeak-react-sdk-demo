@@ -1,4 +1,4 @@
-import { CmsDynamicPage, CmsStaticPage } from "crownpeak-dxm-react-sdk";
+import { CmsDynamicPage } from "crownpeak-dxm-react-sdk";
 import ArticleTitleLarge from "../components/article-title-large";
 import ImageBlock from "../components/image-block";
 import HtmlParser from "../components/html-parser";

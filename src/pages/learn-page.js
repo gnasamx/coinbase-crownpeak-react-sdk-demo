@@ -1,4 +1,4 @@
-import { CmsDynamicPage, CmsStaticPage } from "crownpeak-dxm-react-sdk";
+import { CmsDynamicPage } from "crownpeak-dxm-react-sdk";
 
 import DropZone from "../components/drop-zone";
 import SectionHeader from "../components/section-header";
