@@ -3,36 +3,36 @@
     "path": "/",
     "exact": true,
     "component": "SingleColumnLayout",
-    "cmsassetid": 33047
+    "cmsassetid": 33389
   },
   {
     "path": "/crypto-basics/how-to-donate-crypto",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33048
+    "cmsassetid": 33390
   },
   {
     "path": "/crypto-basics/how-to-set-up-a-crypto-wallet",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33049
+    "cmsassetid": 33391
   },
   {
     "path": "/crypto-basics/when-is-the-best-time-to-invest-in-crypto",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33050
+    "cmsassetid": 33392
   },
   {
     "path": "/crypto-basics/an-investor-who-got-in-when-bitcoin-was-$10",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33051
+    "cmsassetid": 33393
   },
   {
     "path": "/crypto-basics/bitcoin",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33058
+    "cmsassetid": 33395
   }
 ]
