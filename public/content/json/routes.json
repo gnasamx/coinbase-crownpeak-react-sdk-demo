@@ -28,5 +28,11 @@
     "exact": true,
     "component": "SidebarLayout",
     "cmsassetid": 33051
+  },
+  {
+    "path": "/crypto-basics/bitcoin",
+    "exact": true,
+    "component": "SidebarLayout",
+    "cmsassetid": 33058
   }
 ]
