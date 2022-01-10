@@ -45,6 +45,9 @@
         }
       },
       {
+        "ShareButtonList": {}
+      },
+      {
         "NoteBlock": {
           "Note": "Guide to DeFi tokens and altcoins"
         }
