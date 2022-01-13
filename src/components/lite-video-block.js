@@ -7,7 +7,6 @@ export default class LiteVideoBlock extends CmsComponent {
     this.state = {
       isPlaying: false,
     };
-    console.log("props: ", this.props);
     this.poster = new CmsField(
       "Poster",
       CmsFieldTypes.IMAGE,

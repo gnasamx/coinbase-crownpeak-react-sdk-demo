@@ -5,7 +5,6 @@ import WordCloudButton from "./word-cloud-button";
 export default class WordCloudSection extends CmsComponent {
   constructor(props) {
     super(props);
-    console.log("props : ", this.props.data);
     this.heading = new CmsField(
       "Heading",
       CmsFieldTypes.TEXT,

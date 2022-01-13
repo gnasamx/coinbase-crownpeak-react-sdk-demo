@@ -3,7 +3,7 @@ import DropZone from "../components/drop-zone";
 import Routing from "../routing";
 import "../styles/sidebar-layout.css";
 
-export default class SidebarLayout extends CmsStaticPage {
+export default class SidebarLayout extends CmsDynamicPage {
   constructor(props) {
     super(props);
 
