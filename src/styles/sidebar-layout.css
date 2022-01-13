@@ -36,6 +36,14 @@
   grid-row-end: span 1;
 }
 
+.sidebar-layout__body-drop-zone {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  column-gap: 44px;
+  row-gap: 56px;
+}
+
 @media (max-width: 768px) {
   .sidebar-layout__body {
     grid-column-end: span 1;
@@ -47,6 +55,14 @@
   min-width: 0px;
   grid-column-end: span 1;
   grid-row-end: span 1;
+}
+
+.sidebar-layout__aside-drop-zone {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  column-gap: 44px;
+  row-gap: 56px;
 }
 
 @media (max-width: 768px) {

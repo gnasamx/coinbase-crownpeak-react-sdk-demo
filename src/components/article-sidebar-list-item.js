@@ -14,22 +14,24 @@ export default class ArticleSidebarListItem extends CmsComponent {
     );
   }
 
+  handleLink = () => {
+    document
+      .getElementById(
+        `${this.label
+          .replace(/[^a-zA-Z ]/g, "")
+          .toLowerCase()
+          .split(" ")
+          .join("-")}`
+      )
+      ?.scrollIntoView({ behavior: "smooth" });
+  };
+
   render() {
     return (
       <li className="article-sidebar__list-item">
         <button
           className="article-sidebar__list-item-link"
-          onClick={() => {
-            document
-              .getElementById(
-                `${this.label
-                  .replace(/[^a-zA-Z ]/g, "")
-                  .toLowerCase()
-                  .split(" ")
-                  .join("-")}`
-              )
-              ?.scrollIntoView({ behavior: "smooth" });
-          }}
+          onClick={this.handleLink}
         >
           {this.label}
         </button>

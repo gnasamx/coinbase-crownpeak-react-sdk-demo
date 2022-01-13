@@ -3,36 +3,36 @@
     "path": "/",
     "exact": true,
     "component": "SingleColumnLayout",
-    "cmsassetid": 33389
+    "cmsassetid": 33047
   },
   {
-    "path": "/crypto-basics/how-to-donate-crypto",
+    "path": "/acceleratebs/coinbase-learn-release/how-to-donate-crypto.aspx",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33390
+    "cmsassetid": 33048
   },
   {
-    "path": "/crypto-basics/how-to-set-up-a-crypto-wallet",
+    "path": "/acceleratebs/coinbase-learn-release/how-to-set-up-a-crypto-wallet.aspx",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33391
+    "cmsassetid": 33049
   },
   {
-    "path": "/crypto-basics/when-is-the-best-time-to-invest-in-crypto",
+    "path": "/acceleratebs/coinbase-learn-release/when-is-the-best-time-to-invest-in-crypto.aspx",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33392
+    "cmsassetid": 33050
   },
   {
-    "path": "/crypto-basics/an-investor-who-got-in-when-bitcoin-was-$10",
+    "path": "/acceleratebs/coinbase-learn-release/an-investor-who-got-in-when-bitcoin-was-$10.aspx",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33393
+    "cmsassetid": 33051
   },
   {
-    "path": "/crypto-basics/bitcoin",
+    "path": "/acceleratebs/coinbase-learn-release/what-is-bitcoin.aspx",
     "exact": true,
     "component": "SidebarLayout",
-    "cmsassetid": 33395
+    "cmsassetid": 33058
   }
 ]

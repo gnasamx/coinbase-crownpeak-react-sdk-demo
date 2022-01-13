@@ -11,6 +11,7 @@ import SectionHeader from "./section-header";
 import SinglePanelBanner from "./single-panel-banner";
 import WordCloudSection from "./word-cloud-section";
 import ShareButtonList from "./share-button-list";
+import LiteVideoBlock from "./lite-video-block";
 
 export default class DropZone extends CmsDropZoneComponent {
   constructor(props) {
@@ -27,18 +28,7 @@ export default class DropZone extends CmsDropZoneComponent {
       NoteBlock,
       WordCloudSection,
       ShareButtonList,
+      LiteVideoBlock,
     };
-  }
-
-  render() {
-    return (
-      <div
-        className={`drop-zone${
-          this.props.className ? this.props.className : ""
-        }`}
-      >
-        {super.getComponents()}
-      </div>
-    );
   }
 }

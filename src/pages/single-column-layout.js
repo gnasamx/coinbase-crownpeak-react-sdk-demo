@@ -24,7 +24,9 @@ export default class SingleColumnLayout extends CmsDynamicPage {
     return (
       this.state.isLoaded && (
         <article className="single-column-layout">
-          <DropZone name="droppable-12" />
+          <div className="single-column-layout__drop-zone">
+            <DropZone name="droppable-12" />
+          </div>
         </article>
       )
     );
